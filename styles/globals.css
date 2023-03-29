@@ -129,7 +129,6 @@ span.text-red {
 }
 
 .hero-banner-container {
-  background-image: url(/assets/Nike\ Shoes.png);
   padding: 100px 40px;
   background-color: #dcdcdc;
   border-radius: 15px;
@@ -166,7 +165,7 @@ span.text-red {
 }
 .hero-banner-image {
   position: absolute;
-  top: 0%;
+  top: 18px;
   right: 9%;
   width: 560px;
   height: 450px;
@@ -612,17 +611,19 @@ span.text-red {
 @media screen and (max-width: 800px) {
   .hero-banner-container {
     height: 560px;
+    padding: 35px 40px;
   }
   .hero-banner-image {
-    width: 94%;
+    width: 71%;
     height: 54%;
-    top: 44%;
-    right: 1%;
+    top: 31%;
+    right: 24%;
     border-radius: 6px;
   }
   .footer-banner-container {
     height: 560px;
     margin-top: 80px;
+    padding: 47px;
   }
   .footer-banner-image {
     width: 77%;
@@ -675,7 +676,7 @@ span.text-red {
     height: 350px;
   }
   .cart-container {
-    width: 415px;
+    width: 360px;
     padding: 4px;
   }
   .cart-heading {
